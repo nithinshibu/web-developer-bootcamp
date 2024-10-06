@@ -1,0 +1,63 @@
+Primitive Types
+
+-Number
+-String
+-Boolean
+-Null
+-Undefined
+
+
+NaN (Not a Number) is a numeric value represents something that is ...not a number.
+
+ex: 0/0 //NaN
+    1+NaN //NaN
+
+
+
+typeof is a operator.
+
+
+example: typeof 4 // "number"
+
+typeof NaN // number
+
+NaN is a member of the number type and it is representing something which is not a number.
+
+Q1)4 + 3 * 4 / 2 
+
+Answer: 12 / 2 = 6 + 4 = 10
+
+Q2) (13 % 5 ) ** 2
+
+remainder is 3 and 3 square is 9
+
+Answer: 9
+
+Q3) 200 + 0/0 
+
+Answer: NaN
+
+=====Variables and Let=====
+
+let year = 2024;
+
+let numHens = 5;
+
+let numRoosters = 1;
+
+
+let totalChickens=numHens + numRoosters // 5 + 1 = 6
+
+
+let score = 50;
+
+score+=10; // 60
+
+-= , *= , /= 
+
+score++
+
+score--
+
+
+
