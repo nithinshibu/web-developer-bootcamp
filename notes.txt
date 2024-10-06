@@ -1,0 +1,7 @@
+This is my learnings from the udemy course : https://www.udemy.com/course/the-web-developer-bootcamp/
+
+Each of my learnings are separated into individual branches.
+
+These guidelines are mainly for the "future me".
+
+Happy Coding :)
