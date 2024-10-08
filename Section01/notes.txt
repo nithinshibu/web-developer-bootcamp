@@ -66,3 +66,153 @@ console.log(score); // 6
 console.log(++score); //7
 console.log(score); // 7
 
+const pie = 3.14;
+
+//const works just like let except we cannot change the value.
+
+
+
+const age = 25;
+
+age = age + 1; // ERRORRR!!!!!
+
+
+var runDistance = 26.2;
+
+//In old days, var was used but nowadays , developers will be using either let or const.
+
+
+
+==============BOOLEANS============
+
+let isLoggedIn = true;
+let isTokenExpired = false;
+
+In javascript we can change the data types of a variable.
+
+let data = 23;
+data = false;
+data = "Hello";
+
+==========RULES===========
+
+let isLoggedIn=true;
+
+Give the variable names "Camel Case".
+
+Give some proper variable name 
+
+==========================Strings============
+
+Strings are indexed which means each character has a corresponding index (a positional number).
+
+let animal = "Chicken";
+
+console.log(animal[0]); // C
+
+animal.length // 7
+
+let firstName = "River";
+
+let lastName="Phoenix";
+
+String is immutable which means I cannot access the variable firstName and try to update the firstName[0]="r", this will not work , instead I can do firstName="river" which means I am storing a new string into the variable.
+
+
+==============String Methods===========
+
+
+let animal = "chicken";
+
+animal.length // This is a property
+
+animal.toUpperCase(); // This is a Method
+
+let sampleText = "     Hello World    ";
+
+sampleText.trim().toUpperCase(); // "HELLO WORLD"
+
+==============String Methods with Arguments==============
+
+let tvShow = 'catdog';
+
+indexOf gives us the first macthing index
+
+tvShow.indexOf('cat'); //0
+tvShow.indexOf('dog')//3
+tvShow.indexOf('z'); //-1 ( not found )
+
+
+str.slice(beginIndex[,endIndex]);
+
+let data = "sample text";
+
+data.slice(0,6); //'sample'
+
+
+let newData = data.replace('sample','demo');
+
+console.log(newData); //demo text
+
+
+
+'lol'.repeat(2); //lollollol
+
+===============String Template Literals=============
+
+let product = "chocopie";
+
+let price = 3.99;
+
+let message = `You bougth ${product} worth ${price}`;
+
+
+Math.PI // 3.1415....
+
+Math.round(4.9) //5
+
+Math.abs(-456) //456
+
+Math.pow(2,5) //32
+
+Math.floor(3.99999) // 3
+
+console.log(Math.ceil(4.2));  // Output: 5
+console.log(Math.ceil(7.8));  // Output: 8
+console.log(Math.ceil(-5.3)); // Output: -5
+console.log(Math.ceil(10));   // Output: 10
+
+
+console.log(Math.floor(4.7));  // Output: 4
+console.log(Math.floor(7.8));  // Output: 7
+console.log(Math.floor(-5.3)); // Output: -6
+console.log(Math.floor(10));   // Output: 10
+
+
+console.log(Math.round(4.5));  // Output: 5
+console.log(Math.round(4.4));  // Output: 4
+console.log(Math.round(7.8));  // Output: 8
+console.log(Math.round(-5.5)); // Output: -5
+console.log(Math.round(-5.6)); // Output: -6
+
+
+console.log(Math.trunc(4.9));   // Output: 4
+console.log(Math.trunc(4.1));   // Output: 4
+console.log(Math.trunc(-4.9));  // Output: -4
+console.log(Math.trunc(-4.1));  // Output: -4
+console.log(Math.trunc(7));     // Output: 7
+
+console.log(Math.random());  // Output: A random number between 0 and 1, e.g., 0.524567849
+
+
+console.log(Math.floor(Math.random() * 10));  // Output: A random integer between 0 and 9
+
+
+
+function getRandom(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+console.log(getRandom(5, 15));  // Output: A random integer between 5 and 15
+
+
