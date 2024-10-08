@@ -59,5 +59,10 @@ score++
 
 score--
 
+let score =5;
+console.log(score++); //5
+console.log(score); // 6
 
+console.log(++score); //7
+console.log(score); // 7
 
